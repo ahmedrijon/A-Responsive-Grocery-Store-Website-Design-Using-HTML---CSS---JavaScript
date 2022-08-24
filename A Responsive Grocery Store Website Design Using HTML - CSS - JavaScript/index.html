@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RGrocery</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	<link rel="icon" href="image/logo.jpg">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link  href="script.js">
+	<script src="https://kit.fontawesome.com/72fc157f1e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!--header section-->
+<header class="header">
+	<a href="#" class="logo"><i class="fa-solid fa-basket-shopping"></i>RGrocery</a>
+	<nav class="navbar">
+		<a href="#home">Home</a>
+		<a href="#features">Features</a>
+		<a href="#products">Products</a>
+		<a href="#categories">Categories</a>
+		<a href="#review">Review</a>
+	</nav>
+	<div class="icons">
+		<div class="fa-solid fa-bars" id="menu-btn"></div>
+		<div class="fa-solid fa-magnifying-glass" id="search-btn"></div>
+		<div class="fa-solid fa-cart-arrow-down" id="cart-btn"></div>
+		<div class="fa-solid fa-user" id="login-btn"></div>
+		
+	</div>
+	<form action="" class="search-form">
+		<input type="search" id="search-box" placeholder="Search Here">
+		<label for="search-box" class="fa-solid fa-magnifying-glass"></label>
+		</form>
+		<div class="shopping-cart">
+			<div class="box">
+				<i class="fa-solid fa-trash"></i>
+				<img src="image/1.png">
+				<div class="content">
+					<h4>Apple</h4>
+					<span class="price">150/-</span>
+					<span class="quantity">Qty:1</span>
+				</div>
+				
+			</div>
+			<div class="box">
+				<i class="fa-solid fa-trash"></i>
+				<img src="image/2.jpg">
+				<div class="content">
+					<h4>Ladies finger</h4>
+					<span class="price">50/-</span>
+					<span class="quantity">Qty:1Kg</span>
+				</div>
+		</div>
+		<div class="box">
+				<i class="fa-solid fa-trash"></i>
+				<img src="image/4.jpg">
+				<div class="content">
+					<h4>Coconut</h4>
+					<span class="price">70/-</span>
+					<span class="quantity">Qty:1</span>
+				</div>
+			</div>
+			<div class="total">Total:</div>
+			<a href="#" class="btn">Please Enter</a>
+		</div>
+		<form action="" class="login-form">
+		<h4>Login Now</h4>
+		<input type="email" placeholder="Email" class="box">
+		<input type="password" placeholder="Password" class="box">
+		<p>Forget Password? <a href="#">Click here</a></p>
+		<p>New User? <a href="#">Sign Up</a></p>
+		<input type="submit" value="login now" class="btn">
+	</form>
+	
+</header>
+
+<!--Home section starts-->
+<section class="home" id="home">
+	<div class="content">
+		<h3>Fresh and <span>Organic</span> Products</h3>
+		<p>Find Your's Best Product Here, All in one place<br>With a very little time and at a cheap price</p>
+		<a href="#" class="btn">Shop Now</a>
+	</div>
+</section>
+<!--Home section ends-->
+
+<!--features section starts-->
+
+<section class="features" id="features">
+	<h1 class="heading">Our <span>Features</span></h1>
+	<div class="box-container">
+		<div class="box">
+			<img src="image/8.jpg" alt="">
+			<h4>Fresh And Organic</h4>
+			<p>Fresh and organic products at your hand</p>
+			<a href="#" class="btn">See More</a>
+		</div>
+		<div class="box">
+			<img src="image/14.jpg" alt="">
+			<h4>Home Delivery </h4>
+			<p>Free home delivery available at atleast 1500 taka buying</p>
+			<a href="#" class="btn">See More</a>
+		</div>
+		<div class="box">
+			<img src="image/15.jpg" alt="">
+			<h4>Easy Payment Method</h4>
+			<p>We are taking all bank credit card and very easy to pay</p>
+			<a href="#" class="btn">See More</a>
+		</div>
+		
+	</div>
+	
+</section>
+<!--features section ends-->
+
+
+<!--products section starts-->
+
+<section class="products" id="products">
+	<h1 class="heading">Our <span>Products</span></h1>
+	<div class="swiper product-slider">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide box">
+				<img src="image/17.jpg" alt="">
+				<h4>Fresh Garlic</h4>
+				<div class="price">Per Kg: 150/-</div>
+				<div class="stars">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star-half-stroke"></i>
+				</div>
+				<a href="#" class="btn">Add To Cart</a>
+			</div>
+			<div class="swiper-slide box">
+				<img src="image/10.jpg" alt="">
+				<h4>Fresh Orange</h4>
+				<div class="price">Per Kg: 100/-</div>
+				<div class="stars">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star-half-stroke"></i>
+				</div>
+				<a href="#" class="btn">Add To Cart</a>
+			</div>
+			<div class="swiper-slide box">
+				<img src="image/26.jpg" alt="">
+				<h4>Fresh Meat</h4>
+				<div class="price">Per Kg: 550/-</div>
+				<div class="stars">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				</div>
+				<a href="#" class="btn">Add To Cart</a>
+			</div>
+			<div class="swiper-slide box">
+				<img src="image/25.jpg" alt="">
+				<h4>Fresh Milk</h4>
+				<div class="price">Per Liter: 50/-</div>
+				<div class="stars">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				</div>
+				<a href="#" class="btn">Add To Cart</a>
+			</div>
+			<div class="swiper-slide box">
+				<img src="image/41.jpg" alt="">
+				<h4>Fresh Onion</h4>
+				<div class="price">Per Kg: 55/-</div>
+				<div class="stars">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				</div>
+				<a href="#" class="btn">Add To Cart</a>
+			</div>
+			<div class="swiper-slide box">
+				<img src="image/22.jpg" alt="">
+				<h4>Radish</h4>
+				<div class="price">Per Kg: 35/-</div>
+				<div class="stars">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				</div>
+				<a href="#" class="btn">Add To Cart</a>
+			</div>
+			<div class="swiper-slide box">
+				<img src="image/46.jpg" alt="">
+				<h4>Broccoli</h4>
+				<div class="price">Per Kg: 35/-</div>
+				<div class="stars">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				</div>
+				<a href="#" class="btn">Add To Cart</a>
+			</div>
+
+		</div>
+	</div>
+
+
+
+
+
+	<div class="swiper product-slider">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide box">
+				<img src="image/20.jpg" alt="">
+				<h4>Fresh Tomato</h4>
+				<div class="price">Per Kg: 40/-</div>
+				<div class="stars">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star-half-stroke"></i>
+				</div>
+				<a href="#" class="btn">Add To Cart</a>
+			</div>
+			<div class="swiper-slide box">
+				<img src="image/6.jpg" alt="">
+				<h4>Fresh Avocado</h4>
+				<div class="price">Per Kg: 160/-</div>
+				<div class="stars">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star-half-stroke"></i>
+				</div>
+				<a href="#" class="btn">Add To Cart</a>
+			</div>
+			<div class="swiper-slide box">
+				<img src="image/50.jpg" alt="">
+				<h4>Fresh Potato</h4>
+				<div class="price">Per Kg: 30/-</div>
+				<div class="stars">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				</div>
+				<a href="#" class="btn">Add To Cart</a>
+			</div>
+			<div class="swiper-slide box">
+				<img src="image/7.jpg" alt="">
+				<h4>Fresh Strawberry</h4>
+				<div class="price">Per Kg: 200/-</div>
+				<div class="stars">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				</div>
+				<a href="#" class="btn">Add To Cart</a>
+			</div>
+			<div class="swiper-slide box">
+				<img src="image/48.jpg" alt="">
+				<h4>Fresh Red-Grapes</h4>
+				<div class="price">Per Kg: 170/-</div>
+				<div class="stars">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				</div>
+				<a href="#" class="btn">Add To Cart</a>
+			</div>
+			<div class="swiper-slide box">
+				<img src="image/44.jpg" alt="">
+				<h4>Capsicum</h4>
+				<div class="price">Per Kg: 70/-</div>
+				<div class="stars">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				</div>
+				<a href="#" class="btn">Add To Cart</a>
+			</div>
+			<div class="swiper-slide box">
+				<img src="image/45.jpg" alt="">
+				<h4>Corn</h4>
+				<div class="price">Per Kg: 35/-</div>
+				<div class="stars">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				</div>
+				<a href="#" class="btn">Add To Cart</a>
+			</div>
+		</div>
+	</div>
+
+</section>
+<!--products section ends-->
+
+<!--categories section starts-->
+<section class="categories" id="categories">
+	<h1 class="heading">Product<span>Categories</span></h1>
+	<div class="box-container">
+		<div class="box">
+			<img src="image/61.jpg">
+			<h3>Vegetable Items</h3>
+			<p>30% off in each item</p>
+			<a href="#" class="btn">Shop Now</a>	
+		</div>
+		<div class="box">
+			<img src="image/62.jpg">
+			<h3>Fruits Items</h3>
+			<p>15% off in each item</p>
+			<a href="#" class="btn">Shop Now</a>	
+		</div>
+		<div class="box">
+			<img src="image/63.jpg">
+			<h3>Milk & Egg Items</h3>
+			<p>5% off in each item</p>
+			<a href="#" class="btn">Shop Now</a>	
+		</div>
+		<div class="box">
+			<img src="image/64.jpg">
+			<h3>Meat Items</h3>
+			<p>40% off in each item</p>
+			<a href="#" class="btn">Shop Now</a>	
+		</div>
+		<div class="box">
+			<img src="image/65.jpg">
+			<h3>Chocolate Items</h3>
+			<p>16% off in each item</p>
+			<a href="#" class="btn">Shop Now</a>	
+		</div>
+		<div class="box">
+			<img src="image/66.jpg">
+			<h3>Daily Needs</h3>
+			<p>6% off in each items</p>
+			<a href="#" class="btn">Shop Now</a>	
+		</div>
+	</div>
+</section>
+<!--categories section ends-->
+
+<!--Review section starts-->
+
+<section class="review" id="review">
+	<h1 class="heading">Consumer's <span>Review</span> </h1>
+	<div class="swiper review-slider">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide box">
+				<img src="image/user1.jpg">
+				<p>It's a very good grocery website</p>
+				<h3>Rejoan Ahmed</h3>
+				<div class="stars">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				</div>
+			</div>
+			<div class="swiper-slide box">
+				<img src="image/user2.jpg">
+				<p>Was a good place</p>
+				<h3>Antor Ahmed</h3>
+				<div class="stars">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				</div>
+			</div>
+			<div class="swiper-slide box">
+				<img src="image/user3.jpg">
+				<p>Average but try to do good</p>
+				<h3>Ariful Islam Akash</h3>
+				<div class="stars">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star-half-stroke"></i>
+				</div>
+			</div>
+			<div class="swiper-slide box">
+				<img src="image/user4.jpg">
+				<p>Best ever grocery site</p>
+				<h3>Abu Rahat Sarkar</h3>
+				<div class="stars">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</section>
+
+<!--Review section ends-->
+
+<!--footer section starts-->
+<section class="footer">
+	<div class="box-container">
+		<div class="box">
+			<h3>RGrocery <i class="fa-solid fa-basket-shopping"></i></h3>
+			<p>Find Your's Best Product Here, All in one place<br>With a very little time and at a cheap price</p>
+			<div class="Share">
+				<a href="#" class="fa-brands fa-facebook"></a>
+				<a href="#" class="fa-brands fa-twitter"></a>
+				<a href="#" class="fa-brands fa-instagram"></a>
+				<a href="#" class="fa-brands fa-linkedin"></a>
+				<a href="#" class="fa-brands fa-youtube"></a>
+			</div>
+		</div>
+
+		<div class="box">
+			<h3>To Contuct Us</h3>
+				<a href="#" class="links"><i class="fa-solid fa-phone"></i>01234567890</a>
+				<a href="#" class="links"><i class="fa-solid fa-phone"></i>01234567891</a>
+				<a href="#" class="links"><i class="fa-solid fa-at"></i>rgorecry@gmail.com</a>
+				<a href="#" class="links"><i class="fa-solid fa-location-dot"></i>6/A Iu Road, Dhaka-1330</a>
+		</div>
+
+		<div class="box">
+			<h3>Quick Access</h3>
+				<a href="#" class="links"><i class="fa-solid fa-circle-arrow-right"></i>Home</a>
+				<a href="#" class="links"><i class="fa-solid fa-circle-arrow-right"></i>Features</a>
+				<a href="#" class="links"><i class="fa-solid fa-circle-arrow-right"></i>Products</a>
+				<a href="#" class="links"><i class="fa-solid fa-circle-arrow-right"></i>Categories</a>
+				<a href="#" class="links"><i class="fa-solid fa-circle-arrow-right"></i>Reviews</a>
+		</div>
+		<div class="box">
+			<h3>Newsletter</h3>
+			<p>Subscribe For More Latest Updates</p>
+			<input type="email" placeholder="Email" class="email">
+			<input type="submit" value="Subscribe" class="btn">
+			<img src="image/card3.jpg" class="Payment-img">
+		</div>
+
+	</div>
+
+<div class="credit"> Created by <span> Rejoan Ahmed </span>|all rights reserved
+	
+</div>
+
+	
+</section>
+
+
+<!--footer section ends-->
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<!--js file link-->
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
